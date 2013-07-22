@@ -1,0 +1,8 @@
+{
+  "http_port": 9003,
+  "remote_base_url": "http://api.justin.tv/api",
+  "remote_suffix": ".xml",
+  "endpoints": {
+    "/broadcast/by_chapter": ["archives.bracket_start","archives.bracket_end"]
+  }
+}
